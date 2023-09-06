@@ -1,6 +1,6 @@
 package com.zakurdaevm.java.springboot.kotlinrest.model
 
-data class KotlinExample(
+data class BankExample(
     val id: Long,
     var name: String,
     var example: String,
