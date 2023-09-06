@@ -13,7 +13,4 @@ class HelloWorldController {
 
     @GetMapping("function")
     fun helloWorldFunction(): String = "Hello, this is a REST endpoint from function!"
-
-    @GetMapping("experiment2")
-    fun helloWorldFunctionExperiment(): String = "Hello, this is a REST endpoint from experiment function!!!"
 }
